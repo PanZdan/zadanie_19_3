@@ -4,8 +4,7 @@ const ADD_COMMENT = 'ADD_COMMENT';
 const EDIT_COMMENT = 'EDIT_COMMENT';
 const REMOVE_COMMENT = 'REMOVE_COMMENT';
 const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
-const THUMB_DOWN_COMMEN = 'THUMB_DOWN_COMMEN';
-
+const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
 function addComment(text) {
   return {
@@ -39,7 +38,7 @@ function thumbUpComment(id) {
 
 function thumbDownComment(id) {
   return {
-    type: THUMB_DOWN_COMMEN,
+    type: THUMB_DOWN_COMMENT,
     id
   }
 }
